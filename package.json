@@ -1,0 +1,48 @@
+{
+  "name": "homework-ajs-16-arraybuffer-math",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/vd3v9air4jwsrq3k/branch/main?svg=true)](https://ci.appveyor.com/project/Nataliya2020/homework-ajs-16-arraybuffer-math/branch/main)",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "test": "jest --coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataliya2020/homework-ajs-16-ArrayBuffer-Math.git"
+  },
+  "author": "Nataliya2020",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataliya2020/homework-ajs-16-ArrayBuffer-Math/issues"
+  },
+  "homepage": "https://github.com/Nataliya2020/homework-ajs-16-ArrayBuffer-Math#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "http-server": "^0.12.3",
+    "jest": "^27.0.6",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^2.1.0",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.15.2"
+  }
+}
